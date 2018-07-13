@@ -1,0 +1,85 @@
+/*紫荆管家按钮的样式*/
+.zj_button{
+  background-color: #ad7de7 !important;
+}
+.common_color{
+  color: #ad7de7 !important;
+}
+.common_background{
+  background-color: #ad7de7;
+}
+.vux-tab-ink-bar{
+  background-color: #ad7de7!important;
+}
+.qrcode_background{
+  background-color:#e0c8f7
+}
+.common_border_color_s{
+  border-color:#ad7de7 !important;
+}
+.common_border_color{
+  border:1px solid #ad7de7;
+}
+.visitor_background{
+  background-color:black;
+  position:absolute;
+  height:100%;
+  width:100%;
+}
+.visitor_color{
+  color:#fbcf72;
+}
+.bing_num_background{
+  background-color:#000;
+  border: 1px solid #fbcf72
+}
+.bing_num_color{
+  color:#fbcf72;
+}
+.visitor_button_submit{
+  width:100%;
+  background: url('../img/visitor_submit_button.png')  center center ;
+  padding: .2rem 0;
+  box-shadow:0 1px 5px rgba(255,255,255,0.3) inset,0 0 10px rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  margin-top:.8rem;
+  border-color: #101010;
+  border-width: 2px 1px 1px 1px;
+  color: #fbcf72;
+  font-weight: 600;
+  font-size:.45rem;
+}
+.visitor_button_code{
+  border:1px solid #fbcf72;
+  background-color: #000;
+}
+.visitor_demo5-item {
+  margin-right:.5rem;
+  color:white;
+  font-size:.4rem;
+  border: 1px solid #fbcf72;
+  border-radius:5px;
+  padding: .1rem .5rem;
+  box-shadow: 0 0 10px rgba(186,147,41,.5) inset,0 0 10px rgba(255,255,255,.3);
+}
+.visitor_demo5-item:last-child {
+  margin-right:0;
+}
+.visitor_demo5-item-selected {
+  background: url(../../static/img/visitor_choose.png) 100px;
+  border:none;
+  /*padding: .1275rem .5275rem;*/
+  color:#fbcf72;
+  box-shadow: 0 1px 5px rgba(255,255,255,0.3) inset, 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.visitor_demo5-item-disabled{
+  color: #888;
+  background-color: #dfdfdf;
+  border: 1px solid #bfbfbf;
+}
+.visitor_login_content{
+  background-color:black;
+}
+.visitor_shadow{
+  box-shadow: 0 0 10px rgba(186,147,41,.5) inset,0 0 10px rgba(255,255,255,.3);
+}

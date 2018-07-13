@@ -1,0 +1,257 @@
+/*平分布局*/
+#xjt_tj .flex_box{display:box;display:-webkit-box;display:-moz-box;display:-ms-box;display:-o-box;}
+#xjt_tj .flex{box-flex:1;-webkit-box-flex:1;-moz-box-flex:1;-ms-box-flex:1;-o-box-flex:1;}
+/* 垂直居中 */
+#xjt_tj .vertical{box-align:center;-webkit-box-align:center;-moz-box-align:center;-o-box-align:center;-ms-box-align:center;}
+/*水平居中*/
+#xjt_tj .horizontal{box-pack:center;-webkit-box-pack:center;-moz-box-pack:center;-o-box-pack:center;-ms-box-pack:center;}
+/* 清除填充 */
+#xjt_tj .clear_padding{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;}
+
+/*图片统一样式*/
+.xjt_wrap{
+  font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+.xjt_wrap img {
+  width:100%;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    border: none
+}
+
+/*公用样式*/
+a{cursor:pointer}
+@blue:rgba(51,55,82,1);   /* 背景颜色 */
+@green:rgba(0,216,192,1);   /* 文字颜色 */
+@white:rgba(255,255,255,1);   /* 白色 */
+@lightWhite:#fbfafc;
+@black:#333;
+
+.bold{font-weight:bold;}      /* 字体加粗 */
+.bolder{font-weight:bolder;}      /* 字体加粗 */
+.inline{
+	display:inline-block;
+}
+.block{
+	display:block;
+}
+.overflow{
+  overflow:hidden;
+}
+.tc{
+	text-align:center;       /* 文字水平居中  */
+}
+.mg(@v:0.2rem){
+	margin: @v;
+}
+.pd(@v:0 0.46rem){
+	padding: @v;
+}
+
+/*圆角*/
+.radius5{
+  border-radius:5px;
+}
+.radius8{
+  border-radius:8px;
+}
+.radius90{
+	border-radius:1.2rem;
+}
+.radius100{
+	border-radius:100%;
+}
+.mgB90{
+	margin:0 0 1.2rem 0;
+}
+.sz12{
+  font-size:12px;
+}
+.sz14{
+  font-size:14px;
+}
+.sz16{
+  font-size:16px;
+}
+.sz20{
+  font-size:0.26rem;
+}
+.sz45{
+	font-size:0.6rem;
+}
+
+/**/
+.bz100{
+  background-size:100% 100%;
+}
+
+
+/*个人消息*/
+@black:rgba(0,0,0,1);   /* 黑色 */
+.bLine{border-bottom:solid 1px #e5e5e5;}
+
+.message ul li:last-child{border-bottom:none!important;}
+
+
+
+.message{
+  border-top:solid 1px #e5e5e5;
+  .bLine;
+  margin-top:0.25rem;
+  ul{
+    li{
+      &:last-child{
+      .bLine!important;
+      }
+      .bLine;
+      background:@white;
+      .pd(0.2rem 0.4rem);
+      h3{
+        font-size:0.42rem;
+        color:@black;
+      }
+      p{
+        font-size:0.34rem;
+        .mes-name{
+          color:#3196f3;
+          .mg(0 0.15rem 0 0);
+        }
+        .mes-time{
+          color:#888;
+        }
+      }
+    }
+  }
+}
+
+
+/*首页*/
+#xjt_tj .kind{
+  background:@white;
+  .pd(0.2rem 0);
+    li{
+      .tc;
+      p{
+        font-size:0.32rem;
+      }
+      i{
+        width:1.3rem;
+        height:1.3rem;
+        .block;
+        .mg(0.28rem auto 0.06rem);
+
+      }
+      .one{
+        background:url('../../../gym/import/img/tj/i_bsbx.png') no-repeat;
+        background-size:100%;
+      }
+      .two{
+        background:url('../../../gym/import/img/tj/i_tsjy.png') no-repeat;
+        background-size:100%;
+      }
+      .three{
+        background:url('../../../gym/import/img/tj/i_tcsc.png') no-repeat;
+        background-size:100%;
+      }
+      .four{
+        background:url('../../../gym/import/img/tj/i_wyjf.png') no-repeat;
+        background-size:100%;
+      }
+      .five{
+        background:url('../../../gym/import/img/tj/i_bld.png') no-repeat;
+        background-size:100%;
+      }
+      .six{
+        background:url('../../../gym/import/img/tj/i_wjdc.png') no-repeat;
+        background-size:100%;
+      }
+      .seven{
+        background:url('../../../gym/import/img/tj/i_jsf.png') no-repeat;
+        background-size:100%;
+      }
+      .eight{
+        background:url('../../../gym/import/img/tj/i_hsyq.png') no-repeat;
+        background-size:100%;
+      }
+    }
+}
+#xjt_tj .tj-title{
+    font-size: .4rem;
+    .pd(0.1rem 0.4rem);
+    .overflow;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    max-height: 1.2rem;
+}
+#xjt_tj .n-adver{
+    height: 4rem;
+    .overflow;
+    .pd(0.1rem 0.4rem 0);
+  }
+#xjt_tj .tj-notice{
+  background:@white;
+  border-top:solid 1px #e5e5e5;
+  border-bottom:solid 1px #e5e5e5;
+  .mg(0.25rem 0 0);
+  .n-title{
+    .pd(0.24rem 0.4rem 0.14rem);
+    border-bottom:solid 1px #e5e5e5;
+    span{
+      color:#2196f3;
+      font-size:0.42rem;
+    }
+    .more{
+      font-size:0.32rem;
+    }
+    .i-notice{
+      width:0.58rem;
+      height:0.66rem;
+      .mg(0 0.22rem 0 0);
+      .inline;
+      background:url('../../../gym/import/img/tj/tj-notice.jpg') no-repeat;
+      .bz100;
+    }
+  }
+  .n-desc{
+    .pd(0.26rem 0.4rem);
+    span{
+      color:#888;
+      font-size:0.32rem;
+      .mg(0 5px 0 0);
+    }
+    .spTag{
+      color:#2196f3;
+      font-size:0.15rem;
+      border:solid 1px #2196f3;
+      .pd(0 0.15rem);
+      .mg(0 12px 0 0);
+    }
+  }
+}
+
+#xjt_tj .recommend{
+  .pd(0.25rem 0);
+  .dw{
+    .importRadius{
+      .radius8;
+      .overflow;
+    }
+    .jx-center{
+      width:0.12rem;
+    }
+    .pd(0 0.4rem);
+    a{
+        width:4.53rem;
+        height:2.66rem;
+        .radius5;
+        .overflow;
+        &:nth-child(1){
+          .mg(0 0.14rem 0 0);
+        }
+    }
+  }
+
+}

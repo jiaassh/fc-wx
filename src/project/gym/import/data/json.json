@@ -1,0 +1,183 @@
+{
+  "room": {
+	 "opentime_start": "9:00",
+    "opentime_end": "22:00",
+    "now_num": 48,
+    "cost": 30,
+    "status": 0,
+    "doorid": 1
+  },
+  "orderData": {
+  	"picurl": "https://img.alicdn.com/bao/uploaded/i2/TB1LsfUSpXXXXbUXFXXXXXXXXXX_!!0-item_pic.jpg_180x180.jpg",
+    "wxname": "微信昵称",
+    "list":
+        {
+          "morning": [
+                {
+                  "timeid": "1",
+                  "state": "3",
+                  "content":"爆满"
+                },
+                {
+                  "timeid": "2",
+                  "state": "0",
+                  "content": "1人预约"
+                },
+                {
+                  "timeid": "3",
+                  "state": "1",
+                  "content": "超时"
+                },
+                {
+                  "timeid": "4",
+                  "state": "0",
+                  "content": "26人预约"
+                },
+                {
+                  "timeid": "5",
+                  "state": "0",
+                  "content": "2人预约"
+                },
+                {
+                  "timeid": "6",
+                  "state": "0",
+                  "content": "5人预约"
+                },
+                {
+                  "timeid": "7",
+                  "state": "3",
+                  "content": "爆满"
+                },
+                {
+                  "timeid": "8",
+                  "state": "0",
+                  "content": "25人已预约"
+                }
+              ],
+              "noon": [
+                  {
+                    "timeid": "9",
+                    "state": "0",
+                    "content": "4人预约"
+                  },
+                  {
+                    "timeid": "10",
+                    "state": "0",
+                    "content": "6人预约"
+                  },
+                  {
+                    "timeid": "11",
+                    "state": "0",
+                    "content": "26人预约"
+                  },
+                  {
+                    "timeid": "12",
+                    "state": "0",
+                    "content": "10人预约"
+                  },
+                  {
+                    "timeid": "13",
+                    "state": "1",
+                    "content": "超时"
+                  },
+                  {
+                    "timeid": "14",
+                    "state": "0",
+                    "content": "30人预约"
+                  },
+                  {
+                    "timeid": "15",
+                    "state": "0",
+                    "content": "11人预约"
+                  },
+                  {
+                    "timeid": "16",
+                    "state": "0",
+                    "content": "8人预约"
+                  }
+              ],
+            "night": [
+              {
+                "timeid": "17",
+                "state": "0",
+                "content": "3人预约"
+              },
+              {
+                "timeid": "18",
+                "state": "0",
+                "content": "5人预约"
+              },
+              {
+                "timeid": "19",
+                "state": "0",
+                "content": "28人预约"
+              },
+              {
+                "timeid": "20",
+                "state": "3",
+                "content": "爆满"
+              },
+              {
+                "timeid": "21",
+                "state": "0",
+                "content": "30人预约"
+              },
+              {
+                "timeid": "22",
+                "state": "1",
+                "content": "超时"
+              },
+              {
+                "timeid": "23",
+                "state": "0",
+                "content": "16人预约"
+              },
+              {
+                "timeid": "24",
+                "state": "0",
+                "content": "22人预约"
+              }
+            ]
+        }
+  },
+  "gymInformation": {
+    "timestamp": "1280977330000",
+    "temperature": 48,
+    "humidity": 30,
+    "pm":"70",
+    "tvoc":"22"
+  },
+  "openEquipment": [
+  	{
+	   "status": "0"
+	},
+	{
+	   "status": "1"
+	}
+  ],
+  "exit": {
+  	"starttime": "9:00",
+    "endtime": "11:20",  
+    "totaltime": "2", 
+    "time": "5000",
+    "pm2.5":"",
+    "voc":""
+  },
+  "statusSearch": {
+    "device_id": "1",
+    "name": "跑步机",
+    "work_status": "0",
+    "sport_data": {
+      "calorie": "80",
+      "distance": "858",
+      "speed": "20",
+      "time": "1280977330748"
+    }
+  },
+  "leave": {
+    "starttime": "1280977330748",
+    "endtime": "1483040530",
+    "totaltime": "5:00",
+    "allcost": "60.00"
+  }
+}

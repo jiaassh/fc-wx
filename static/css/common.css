@@ -1,0 +1,526 @@
+body{
+  background: #efeff4;
+}
+/*tab页切换颜色*/
+.weui-tabbar__item.weui-bar__item_on .weui-tabbar__label{
+  color:#ad7de7 !important;
+}
+
+/*pre标签自动换行*/
+pre {
+  white-space: pre-wrap; word-wrap: break-word;word-break:break-all;display:inline;
+}
+
+/*标题超出显示...*/
+.text_ellipsis{
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*.vux-number-input{
+  border-top: 1px solid #ad7de7 !important;
+  border-bottom:1px solid #ad7de7 !important;
+}*/
+
+
+
+.object_fit{
+  object-fit: cover;
+}
+
+/*增加减少*/
+/*.vux-number-selector{
+  color:#ad7de7 !important;
+}*/
+.vux-number-selector svg{
+  fill:#ad7de7 !important;
+}
+.vux-number-selector-sub, .vux-number-selector-plus{
+  border: 1px solid #ad7de7 !important;
+}
+
+.weui_uploader_file2 {
+  float: left;
+  /*margin-right: 17px;
+  margin-bottom: 5px;*/
+  margin: 5px 9px 5px 0;
+  width: 72px;
+  height: 72px;
+  background: no-repeat 50%;
+  background-size: cover;
+}
+.weui_uploader_files2{
+  list-style: none;
+  /*padding: 0 0 20px 0;*/
+}
+
+.weui_uploader_input_wrp2 {
+  float: left;
+  position: relative;
+  margin-right: 9px;
+  margin-bottom: 5px;
+  margin-top:5px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #d9d9d9;
+}
+.weui_uploader_input_wrp2:before {
+  width: 2px;
+  height: 39.5px;
+}
+.weui_uploader_input_wrp2:after {
+  width: 39.5px;
+  height: 2px;
+}
+.weui_uploader_input_wrp2:after, .weui_uploader_input_wrp2:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: #d9d9d9;
+}
+
+.weui_cell {
+  padding: 10px 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.weui_cell_primary {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.weui_uploader_input {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#my_weui_uploader .weui_icon_clear2:before {
+  color: #f76260;
+  font-size: 20px;
+}
+
+.weui_icon_clear2:before {
+  color: #f76260;
+  font-size: 74px;
+}
+
+[class*=" weui_icon_"]:before, [class^=weui_icon_]:before {
+  margin: 0;
+}
+
+.weui_icon_clear2:before {
+  content: "\EA0F";
+}
+
+[class*=" weui_icon_"]:before, [class^=weui_icon_]:before {
+  margin: 0;
+}
+
+[class*=" weui_icon_"]:before, [class^=weui_icon_]:before {
+  font-family: weui;
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+}
+
+/*******弹出框********/
+.dialog-demo .weui_dialog {
+  border-radius: 8px;
+  padding-bottom: 8px;
+}
+
+.vux-dialog-transition {
+  opacity: 1;
+  transition-duration: .4s;
+  transform: translate(-50%,-50%) scale(1)!important;
+  transition-property: transform,opacity!important;
+}
+
+.weui_dialog {
+  position: fixed;
+  z-index: 500;
+  width: 85%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-color: #fafafc;
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+/****访客邀请*/
+.visitor_login_content {
+  /*background: url('../img/visitor-bg.png') no-repeat center fixed;*/
+  /*background-size: cover;*/
+  /*height: 736px;*/
+}
+
+.visitor_button_big{background: url("../../static/img/visitor_big_button.png") center center no-repeat;
+  background-size:contain;
+  width: 100%;
+  height: 80px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.visitor_button_small{
+     background-color: #000;
+    width: 70%;
+    margin: 8px 15%;
+    padding: 6px 0;
+    border-radius: 8px;
+    border-color: #fbcf72;
+    border-width: 1px;
+    color: #fbcf72;
+    font-size: 16px;
+}
+
+/*购物车样式表*/
+.bld_img_border{
+  padding:3px;
+  margin-left:15px;
+  display:inline-block;
+  margin-top:-10px;
+  background-color:white;
+  border:1px solid #ececec;
+  border-radius: 5px
+}
+.bld-item {
+  background-color: rgba(221, 221, 221, 0.38);
+  color: #222;
+  font-size: 13px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  line-height: 16px;
+  border-radius: 5px;
+}
+
+.bld-item-selected {
+  background-color: #2196f3;
+  color: #fff;
+}
+.bld_confirm_button {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #2196f3;
+  color: white;
+  margin-top: 10px;
+}
+.bld_border{
+  border:1px solid #999;
+  padding:3px;
+  border-radius:25%;
+  fill:#2196f3;
+}
+.bld_move_dot{
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
+.bld_move_dot svg{
+  width:15px;
+  height:15px;
+  fill:#3190e8;
+}
+.bld_food_price{
+  font-size:.6rem;
+  color:red;
+}
+.bld_more_model{
+  float: right;
+  font-size: .35rem;
+  height: .5rem;
+  padding: .05rem;
+  border-radius: 5px;
+  border: 1px solid #2196f3;
+  color: #2196f3;
+}
+.menu_detail_list{
+  background-color: #fff;
+  padding: .2rem .3rem;
+  border-bottom: 1px solid #f8f8f8;
+  position: relative;
+  overflow: hidden;
+}
+.menu_detail_link{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.menu_food_img{
+  margin-right: .2rem;
+}
+.menu_food_img img{
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  border-radius:10px;
+}
+.menu_food_description{
+  width: 100%;
+}
+.food_description_head{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: .2rem;
+}
+.description_foodname{
+  font-size: .45rem;
+  width:3.2rem;
+  height:1.1rem;
+  overflow: hidden;
+  line-height: 1.1;
+}
+.menu_detail_footer{
+  margin-left: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.food_description_content{
+  margin-top:.4rem;
+  font-size:.4rem;
+  color:#999;
+}
+.gotopay_choose{
+  background:url("../../static/img/choose_right.jpg");
+  background-size:100% 100%;
+}
+.gotopay_button_style{
+  position: absolute;
+  right: 0;
+  background-color:#999;
+  text-align: center;
+  display: flex;
+  color:white;
+  align-items: center;
+  justify-content: center;
+  height:1.3rem;
+  width:4rem;
+  font-size:.45rem;
+}
+.bld_cart_num{
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 2rem;
+}
+.cart_list_length{
+  position: absolute;
+  right: .25rem;
+  top: .25rem;
+  width: .4rem;
+  height: .4rem;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: .32rem;
+  line-height: 1.2;
+  text-align: center;
+}
+.move_in_cart{
+  animation: mymove .5s ease-in-out;
+}
+@keyframes mymove{
+  0%   { transform: scale(1) }
+  25%  { transform: scale(.8) }
+  50%  { transform: scale(1.1) }
+  75%  { transform: scale(.9) }
+  100% { transform: scale(1) }
+}
+@-moz-keyframes mymove{
+  0%   { transform: scale(1) }
+  25%  { transform: scale(.8) }
+  50%  { transform: scale(1.1) }
+  75%  { transform: scale(.9) }
+  100% { transform: scale(1) }
+}
+@-webkit-keyframes mymove{
+  0%   { transform: scale(1) }
+  25%  { transform: scale(.8) }
+  50%  { transform: scale(1.1) }
+  75%  { transform: scale(.9) }
+  100% { transform: scale(1) }
+}
+@-o-keyframes mymove{
+  0%   { transform: scale(1) }
+  25%  { transform: scale(.8) }
+  50%  { transform: scale(1.1) }
+  75%  { transform: scale(.9) }
+  100% { transform: scale(1) }
+}
+.cart_icon_activity{
+  background-color: #3190e8;
+}
+.cart_icon_container{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  padding: .2rem;
+  border-radius: 50%;
+  left: .2rem;
+  top: -.3rem;
+  width:1.4rem;
+  height:1.4rem;
+}
+.buy_cart_container{
+  position: fixed;
+  background-color: #fafafa;
+  bottom: 0;
+  left: 0;
+  z-index: 13;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 1.3rem;
+}
+.cart_icon_num{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.bld_cart_header{
+  background-color:#eceff1;
+  padding:10px 15px;
+}
+.cart_food_list{
+  position: fixed;
+  width: 100%;
+  padding-bottom: 1.3rem;
+  z-index: 12;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.cart_food_list header{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: .2rem .3rem;;
+  background-color: #eceff1;
+}
+.cart_food_list h4{
+  font-size:.4rem;
+  color: #666;
+}
+.cart_food_list .clear_cart{
+  font-size:.35rem;
+  color:#666;
+}
+.cart_food_details {
+  background-color: #fff;
+  max-height: 20rem;
+  overflow-y: auto;
+}
+.screen_cover{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 11;
+}
+.weui_flex{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  outline: 0;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+/*登录注册*/
+.visitor_title{padding:.2rem .5rem;border: 0;font-size:.45rem;}
+.visitor_width_all{
+  width:9rem;
+  text-align:center;
+}
+.visitor_width_pro{
+  width:6.6rem;
+  text-align:left;
+  line-height:1;
+  text-indent: .2rem;
+  display:inline-block;
+}
+.visitor_width_second{
+  width:3.6rem;
+  text-align:left;
+  line-height:1;
+  text-indent: .2rem;
+  display:inline-block;
+}
+.visitor_width_min{
+  text-align:center;
+  margin-left:.2rem;
+  width:2.8rem;
+  line-height:1;
+  display:inline-block;
+}
+.visitor_input{color:#fff;border-radius: 5px; padding: .2rem;font-size:.45rem;}
+.title_margin{
+  margin-left:-.25rem;
+  margin-bottom:.15rem;
+}
